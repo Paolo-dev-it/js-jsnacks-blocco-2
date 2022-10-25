@@ -6,8 +6,8 @@ let countName = name.length;
 let surname = ['Nicoletti','De Lisi','Magris','De Ceglia','Lega','Lukaku']; //Array cognomi
 let countSurname = name.length;
 
-let nameRandom = name[Math.floor(Math.random()* countName)];
-let surnameRandom = surname[Math.floor(Math.random()* countSurname)] ;
+let nameRandom = name[Math.floor(Math.random() * countName)];
+let surnameRandom = surname[Math.floor(Math.random() * countSurname)] ;
 
 console.log(nameRandom + ' ' + surnameRandom); 
 
