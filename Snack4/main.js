@@ -1,5 +1,7 @@
-// let numero = parseInt(prompt('Inserisci un numero'));
+let frutta = ["Arancia", "Mela", "Pera", "Uva"] //Array 1
 
-let number = parseInt(prompt("scrivi un numero"));
+let verdura = ["Insalata", "Carota"] //Array 2
 
-console.log(number);
+let count = verdura.push("Zucchina", "Asparago"); //Array da aggiungere a verdura
+
+console.log(verdura);
